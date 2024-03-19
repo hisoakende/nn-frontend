@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '21.3'
       - run: npm ci
-      - run: npm lint
+      - run: npm run lint
 
   build-and-publish:
     runs-on: ubuntu-latest
