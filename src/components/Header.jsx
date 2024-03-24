@@ -6,10 +6,10 @@ import profileImage from '/profile.png'
 function Header() {
   return (
     <header>
-      <h1>
+      <h1 id="logo-text">
         NEURORUNNER
       </h1>
-      <img src={profileImage} alt="User avatar" />
+      <img id="profile-image" src={profileImage} alt="Profile picture" />
     </header>
   )
 }
